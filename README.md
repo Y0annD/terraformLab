@@ -11,3 +11,15 @@ The lab will be based on following elements:
 - SonarQube as Quality tool
 - Jenkins (optionally)
 
+# Common
+
+# Kubernetes
+
+## Variables
+
+Definition of `terraform` variables:
+
+- namespace  : namespace in which the lab will operate in cluster
+- env        : type of environment, if you want to have multiple
+- kubeconfig : path of kubernetes config file on system
+- kubecontext: kubernetes associated context

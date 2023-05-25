@@ -8,6 +8,7 @@ variable "mysql_chart_repository" {}
 variable "mysql_chart_name" {}
 variable "mysql_image" {}
 variable "mysql_master_password" {}
+variable "mysql_port" {}
 variable "mysql_svc_name" {}
 
 provider "kubernetes" {

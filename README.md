@@ -36,9 +36,10 @@ terraform apply -auto-approve
 Common `terraform.tfvars` variables:
 
 ### Mysql
-- mysql_image        : image used for mysql
-- mysql_data_path    : path where mysql will be persisted on machine
+- mysql_image          : image used for mysql
+- mysql_data_path      : path where mysql will be persisted on machine
 - mysql_master_password: master password for mysql
+- mysql_port           : port where mysql is listening
 
 # Docker
 

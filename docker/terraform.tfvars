@@ -18,8 +18,10 @@ docker_network_name = "lab"
 #########
 
 # Mysql image name
-mysql_image = "mysql:8.0.33"
+mysql_image           = "mysql:8.0.33"
 # Mysql persistent data path
-mysql_data_path = "/src/mysql_data"
+mysql_data_path       = "/src/mysql_data"
 # Mysql master password
 mysql_master_password = "password-to-change"
+# Mysql port
+mysql_port            = 3306
